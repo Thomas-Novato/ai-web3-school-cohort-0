@@ -15,15 +15,31 @@
 - ✅ **合约部署**: `0x540B477667F1d70796dfEee198948bBb79fD8024`
   - [View on Etherscan](https://sepolia.etherscan.io/address/0x540B477667F1d70796dfEee198948bBb79fD8024)
 
+### 🧠 Agent 基础概念学习
+
+学习了 Agent 的核心本质——**被约束的执行循环**，而不是"更自主的 AI"。
+
+#### 关键理解
+- Agent 需要：目标、工具、状态、权限、停止条件
+- 工具调用带来真实执行风险（不只是回答错误）
+- 只读操作可自动，高风险写入需 policy 检查 + simulation + 用户确认
+- 状态应外置记录，方便恢复、审计和追责
+
+#### AI × Web3 应用边界
+- Agent 可以：分析提案、读取链上信息、生成交易草稿
+- Agent 不能：绕过钱包授权、绕过用户确认
+- 最小实践：DAO 提案研究 Agent（只读 + 分析，不执行投票）
+
 ### 今日状态
 - ✅ 对话式学习任务完成
 - ✅ Web3 概念 AI 类比梳理完成
 - ✅ Sepolia 测试网交易完成
 - ✅ 智能合约部署完成
+- ✅ Agent 基础概念学习完成
 - 🔲 交叉实验（待明天）
 
 ## 学习时长
-2 小时
+3 小时
 
 ## GitHub 仓库
 https://github.com/Thomas-Novato/ai-web3-school-cohort-0
@@ -32,4 +48,4 @@ https://github.com/Thomas-Novato/ai-web3-school-cohort-0
 https://web3career.build/zh/programs/AI-Web3-School#tab=learning
 
 ## 备注
-> Week 1 实操闭环完成。从 AI 视角理解 Web3 概念效率很高，测试网交互和合约部署已跑通。明天可以做最小交叉实验。
+> Week 1 核心任务基本完成：测试网交互 + 合约部署 + Agent 理论。Agent 的本质不是"更像人的 AI"，而是"有边界、有权限、有记录、有停止机制的任务执行系统"。明天做最小交叉实验。
