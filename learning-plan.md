@@ -2,7 +2,7 @@
 
 ## 学习目标
 
-基于我的背景（有 AI 和 Web3 基础，会 C++ 编程），目标是：
+基于我的背景（AI 有基础，Web3 有基础，会 C++ 编程），目标是：
 1. 掌握 AI × Web3 开发技能
 2. 完成 Hackathon 项目
 3. 输出学习内容
@@ -12,11 +12,11 @@
 ### 阶段一：基础补充（2-3 周）
 
 #### AI 基础强化
-- [ ] [LLM](https://aiweb3.school/zh/handbook/ai/llm/) - 理解大模型能力边界
-- [ ] [Prompt](https://aiweb3.school/zh/handbook/ai/prompt/) - 学习提示词工程
-- [ ] [Context](https://aiweb3.school/zh/handbook/ai/context/) - 理解上下文管理
+- [x] [LLM](https://aiweb3.school/zh/handbook/ai/llm/) - ✅ 已完成 (5/18)
+- [x] [Prompt](https://aiweb3.school/zh/handbook/ai/prompt/) - ✅ 已完成 (5/19)
+- [x] [Context](https://aiweb3.school/zh/handbook/ai/context/) - ✅ 已完成 (5/20)
+- [x] [Agent](https://aiweb3.school/zh/handbook/ai/agent/) - ✅ 已完成 (5/21)
 - [ ] [RAG](https://aiweb3.school/zh/handbook/ai/rag/) - 检索增强生成
-- [ ] [Agent](https://aiweb3.school/zh/handbook/ai/agent/) - 智能体基础
 - [ ] [Frameworks](https://aiweb3.school/zh/handbook/ai/frameworks/) - LangChain/LangGraph
 
 #### Web3 基础强化
