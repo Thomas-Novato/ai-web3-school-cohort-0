@@ -30,6 +30,9 @@ AI × Web3 School 是一个面向 builders 的开源学习计划，由 LXDAO 与
 ├── handbook-feedback/           # Handbook 反馈
 ├── hackathon/                   # 黑客松项目
 ├── submissions/                 # 作业提交
+├── demos/                       # 可交互学习产物
+│   ├── week1-ai-concept-cards.excalidraw         # AI 基础概念卡片
+│   └── week1-cross-experiment-flow.excalidraw    # 最小交叉实验流程图
 └── templates/                   # 笔记模板
     ├── daily-note.md
     └── task-note.md
@@ -45,9 +48,13 @@ AI × Web3 School 是一个面向 builders 的开源学习计划，由 LXDAO 与
 - 内部会议链接
 - 他人个人数据
 
+| demos/
+|   ├── week1-ai-concept-cards.excalidraw   # AI 基础概念卡片
+|   └── week1-cross-experiment-flow.excalidraw  # 最小交叉实验流程图
+|
 ## 学习进度
-
-- [ ] AI 基础模块
+  
+- [x] AI 基础模块 (LLM / Prompt / Context / Agent)
 - [ ] Web3 基础模块
 - [ ] AI × Web3 Bridge
 - [ ] 前沿探索
