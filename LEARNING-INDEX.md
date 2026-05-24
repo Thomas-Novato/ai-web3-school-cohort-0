@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-23 17:19
+> 最后更新: 2026-05-24 14:25
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
