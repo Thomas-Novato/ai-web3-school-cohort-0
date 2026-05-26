@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-24 14:25
+> 最后更新: 2026-05-26 12:55
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -30,6 +30,13 @@
 | [2026-05-21](daily/2026-05-21.md) | 2026-05-21 学习笔记 | 2026-05-21 学习笔记 | 3h | 95% |
 | [2026-05-22](daily/2026-05-22.md) | 2026-05-22 学习笔记 | 2026-05-22 学习笔记 | h | % |
 | [2026-05-23](daily/2026-05-23.md) | 2026-05-23 学习笔记 | 2026-05-23 学习笔记 | h | % |
+| [2026-05-24](daily/2026-05-24.md) | 2026-05-24 学习笔记 | 2026-05-24 学习笔记 | h | % |
+
+### 🗓️ Week 2
+
+| 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
+|------|----------|----------|:--------:|:------:|
+| [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 | MCP 的三层架构：Model → Client → Server... | h | % |
 
 ---
 ## 📚 章节学习进度
@@ -44,7 +51,7 @@
 | [Agent](https://aiweb3.school/zh/handbook/ai/agent/) | ✅ | 5/21 | 被约束的执行循环 |
 | [RAG](https://aiweb3.school/zh/handbook/ai/rag/) | ⬜ | — | 检索增强生成 |
 | [Frameworks](https://aiweb3.school/zh/handbook/ai/frameworks/) | ⬜ | — | LangChain / LangGraph |
-| [MCP](https://aiweb3.school/zh/handbook/ai/mcp/) | ⬜ | — | Model Context Protocol |
+|| [MCP](https://aiweb3.school/zh/handbook/ai/mcp/) | ✅ | 5/26 | Model Context Protocol |
 | [Evaluation](https://aiweb3.school/zh/handbook/ai/evaluation/) | ⬜ | — | LLM 评估 |
 | [Fine-tuning](https://aiweb3.school/zh/handbook/ai/fine-tuning/) | ⬜ | — | 模型微调 |
 | [Inference](https://aiweb3.school/zh/handbook/ai/inference/) | ⬜ | — | 模型推理 |
@@ -136,6 +143,7 @@
 | 完成最小交叉实验（流程图或实际操作） | 2026-05-21 | 见 [daily/2026-05-21.md](daily/2026-05-21.md) |
 | 准备 30 条 Eval 样本（交易解释场景） | 2026-05-22 | 见 [daily/2026-05-22.md](daily/2026-05-22.md) |
 | 完成 WCB 打卡 | 2026-05-22 | 见 [daily/2026-05-22.md](daily/2026-05-22.md) |
+| 或者继续深入 MCP 实践，尝试搭建一个简单的 MCP Server | 2026-05-26 | 见 [daily/2026-05-26.md](daily/2026-05-26.md) |
 
 ---
 ## 📁 仓库文件索引
@@ -155,6 +163,8 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-21.md
 │   ├── 2026-05-22.md
 │   ├── 2026-05-23.md
+│   ├── 2026-05-24.md
+│   ├── 2026-05-26.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -162,6 +172,8 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-21-checkin-draft.md
 │   ├── 2026-05-22-checkin-draft.md
 │   ├── 2026-05-23-checkin-draft.md
+│   ├── 2026-05-24-checkin-draft.md
+│   ├── 2026-05-26-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
