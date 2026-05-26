@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-26 12:55
+> 最后更新: 2026-05-27 00:23
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -36,7 +36,7 @@
 
 | 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
 |------|----------|----------|:--------:|:------:|
-| [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 | MCP 的三层架构：Model → Client → Server... | h | % |
+| [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | h | % |
 
 ---
 ## 📚 章节学习进度
@@ -45,13 +45,13 @@
 
 | 章节 | 状态 | 学习日期 | 核心理解 |
 |------|:----:|:--------:|----------|
-| [LLM](https://aiweb3.school/zh/handbook/ai/llm/) | ✅ | 5/18 | LLM 核心原理 |
-| [Prompt](https://aiweb3.school/zh/handbook/ai/prompt/) | ✅ | 5/19 | Prompt 工程与元思路 |
-| [Context](https://aiweb3.school/zh/handbook/ai/context/) | ✅ | 5/20 | 可信度分层与 Context Spec |
-| [Agent](https://aiweb3.school/zh/handbook/ai/agent/) | ✅ | 5/21 | 被约束的执行循环 |
-| [RAG](https://aiweb3.school/zh/handbook/ai/rag/) | ⬜ | — | 检索增强生成 |
-| [Frameworks](https://aiweb3.school/zh/handbook/ai/frameworks/) | ⬜ | — | LangChain / LangGraph |
-|| [MCP](https://aiweb3.school/zh/handbook/ai/mcp/) | ✅ | 5/26 | Model Context Protocol |
+| [LLM](https://aiweb3.school/zh/handbook/ai/llm/) | ✅ | 2026-05-18 | LLM 核心原理 |
+| [Prompt](https://aiweb3.school/zh/handbook/ai/prompt/) | ✅ | 2026-05-18 | Prompt 工程与元思路 |
+| [Context](https://aiweb3.school/zh/handbook/ai/context/) | ✅ | 2026-05-18 | 可信度分层与 Context Spec |
+| [Agent](https://aiweb3.school/zh/handbook/ai/agent/) | ✅ | 2026-05-18 | 被约束的执行循环 |
+| [RAG](https://aiweb3.school/zh/handbook/ai/rag/) | ✅ | 2026-05-18 | 检索增强生成 |
+| [Frameworks](https://aiweb3.school/zh/handbook/ai/frameworks/) | ✅ | 2026-05-18 | LangChain / LangGraph |
+| [MCP](https://aiweb3.school/zh/handbook/ai/mcp/) | ✅ | 2026-05-22 | Model Context Protocol |
 | [Evaluation](https://aiweb3.school/zh/handbook/ai/evaluation/) | ⬜ | — | LLM 评估 |
 | [Fine-tuning](https://aiweb3.school/zh/handbook/ai/fine-tuning/) | ⬜ | — | 模型微调 |
 | [Inference](https://aiweb3.school/zh/handbook/ai/inference/) | ⬜ | — | 模型推理 |

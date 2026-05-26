@@ -114,6 +114,7 @@ def parse_daily_note(path):
         "achievements": achievements[:5],
         "hours": hours,
         "progress": progress,
+        "full_content": content,  # 保存全文用于章节检测
     }
 
 
@@ -201,11 +202,11 @@ def build_index(notes):
     lines.append("| 章节 | 状态 | 学习日期 | 核心理解 |")
     lines.append("|------|:----:|:--------:|----------|")
     for name, slug, desc, default_date in AI_CHAPTERS:
-        # 检查 daily note 是否提到这个章节
+        # 检查 daily note 是否提到这个章节（扫描全文以增强检测可靠性）
         completed_date = default_date
         for note in notes:
-            content = note["title"] + " " + " ".join(note["topics"])
-            if name.lower() in content.lower():
+            search_text = note["title"] + " " + " ".join(note["topics"]) + " " + note.get("full_content", "")
+            if name.lower() in search_text.lower():
                 completed_date = note["date"]
                 break
         
