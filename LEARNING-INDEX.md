@@ -37,6 +37,7 @@
 | 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
 |------|----------|----------|:--------:|:------:|
 | [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | h | % |
+| [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Networ | 区块链网络核心概念：Block、Consensus、PoS、L2... | 1h | 90% |
 
 ---
 ## 📚 章节学习进度
@@ -60,7 +61,7 @@
 
 | 章节 | 状态 | 学习日期 | 核心理解 |
 |------|:----:|:--------:|----------|
-| [Network](https://aiweb3.school/zh/handbook/web3/network/) | ⬜ | — | 区块链网络基础 |
+| [Network](https://aiweb3.school/zh/handbook/web3/network/) | ✅ | 2026-05-27 | 区块链网络基础：区块、共识、PoS、L2、Rollup |
 | [Cryptography](https://aiweb3.school/zh/handbook/web3/cryptography/) | ⬜ | — | 密码学基础 |
 | [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) | ⬜ | — | 钱包和签名 |
 | [Smart Contract](https://aiweb3.school/zh/handbook/web3/smart-contract/) | ⬜ | — | 智能合约 |
