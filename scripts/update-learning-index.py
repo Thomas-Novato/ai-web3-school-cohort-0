@@ -224,8 +224,8 @@ def build_index(notes):
     for name, slug, desc, default_date in WEB3_CHAPTERS:
         completed_date = default_date
         for note in notes:
-            content = note["title"] + " " + " ".join(note["topics"])
-            if name.lower() in content.lower():
+            search_text = note["title"] + " " + " ".join(note["topics"])
+            if name.lower() in search_text.lower():
                 completed_date = note["date"]
                 break
         status = "✅" if completed_date else "⬜"

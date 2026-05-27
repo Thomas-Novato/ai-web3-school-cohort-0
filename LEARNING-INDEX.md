@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-27 00:23
+> 最后更新: 2026-05-27 23:02
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -37,7 +37,7 @@
 | 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
 |------|----------|----------|:--------:|:------:|
 | [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | h | % |
-| [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Networ | 区块链网络核心概念：Block、Consensus、PoS、L2... | 1h | 90% |
+| [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Network） | 区块链网络不是抽象背景，而是交易从签名到确认的完整链路... | h | % |
 
 ---
 ## 📚 章节学习进度
@@ -61,7 +61,7 @@
 
 | 章节 | 状态 | 学习日期 | 核心理解 |
 |------|:----:|:--------:|----------|
-| [Network](https://aiweb3.school/zh/handbook/web3/network/) | ✅ | 2026-05-27 | 区块链网络基础：区块、共识、PoS、L2、Rollup |
+| [Network](https://aiweb3.school/zh/handbook/web3/network/) | ✅ | 2026-05-27 | 区块链网络基础 |
 | [Cryptography](https://aiweb3.school/zh/handbook/web3/cryptography/) | ⬜ | — | 密码学基础 |
 | [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) | ⬜ | — | 钱包和签名 |
 | [Smart Contract](https://aiweb3.school/zh/handbook/web3/smart-contract/) | ⬜ | — | 智能合约 |
@@ -145,6 +145,7 @@
 | 准备 30 条 Eval 样本（交易解释场景） | 2026-05-22 | 见 [daily/2026-05-22.md](daily/2026-05-22.md) |
 | 完成 WCB 打卡 | 2026-05-22 | 见 [daily/2026-05-22.md](daily/2026-05-22.md) |
 | 或者继续深入 MCP 实践，尝试搭建一个简单的 MCP Server | 2026-05-26 | 见 [daily/2026-05-26.md](daily/2026-05-26.md) |
+| 或者尝试完成 Network 的"最小实践"：做一笔测试网交易追踪 | 2026-05-27 | 见 [daily/2026-05-27.md](daily/2026-05-27.md) |
 
 ---
 ## 📁 仓库文件索引
@@ -166,6 +167,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-23.md
 │   ├── 2026-05-24.md
 │   ├── 2026-05-26.md
+│   ├── 2026-05-27.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -175,6 +177,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-23-checkin-draft.md
 │   ├── 2026-05-24-checkin-draft.md
 │   ├── 2026-05-26-checkin-draft.md
+│   ├── 2026-05-27-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
