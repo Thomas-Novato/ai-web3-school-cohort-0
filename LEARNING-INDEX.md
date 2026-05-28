@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-27 23:02
+> 最后更新: 2026-05-28 23:00
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -38,6 +38,7 @@
 |------|----------|----------|:--------:|:------:|
 | [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | h | % |
 | [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Network） | 区块链网络不是抽象背景，而是交易从签名到确认的完整链路... | h | % |
+| [2026-05-28](daily/2026-05-28.md) | 2026-05-28 学习笔记 — 密码学（Cryptogr | 私钥 = 控制权，签名 = 授权，哈希 = 完整性，Merkle Tree = 高效验证... | h | % |
 
 ---
 ## 📚 章节学习进度
@@ -62,7 +63,7 @@
 | 章节 | 状态 | 学习日期 | 核心理解 |
 |------|:----:|:--------:|----------|
 | [Network](https://aiweb3.school/zh/handbook/web3/network/) | ✅ | 2026-05-27 | 区块链网络基础 |
-| [Cryptography](https://aiweb3.school/zh/handbook/web3/cryptography/) | ⬜ | — | 密码学基础 |
+| [Cryptography](https://aiweb3.school/zh/handbook/web3/cryptography/) | ✅ | 2026-05-28 | 密码学基础 |
 | [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) | ⬜ | — | 钱包和签名 |
 | [Smart Contract](https://aiweb3.school/zh/handbook/web3/smart-contract/) | ⬜ | — | 智能合约 |
 | [Account Abstraction](https://aiweb3.school/zh/handbook/web3/account-abstraction/) | ⬜ | — | 账户抽象 |
@@ -168,6 +169,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-24.md
 │   ├── 2026-05-26.md
 │   ├── 2026-05-27.md
+│   ├── 2026-05-28.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -178,6 +180,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-24-checkin-draft.md
 │   ├── 2026-05-26-checkin-draft.md
 │   ├── 2026-05-27-checkin-draft.md
+│   ├── 2026-05-28-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
