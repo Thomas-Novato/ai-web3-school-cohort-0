@@ -21,7 +21,7 @@
 
 #### Web3 基础强化
 - [x] [Network](https://aiweb3.school/zh/handbook/web3/network/) - 区块链网络基础 ✅ (5/27)
-- [ ] [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) - 钱包和签名
+- [x] [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) - 钱包和签名 ✅ (5/29)
 - [ ] [Smart Contract](https://aiweb3.school/zh/handbook/web3/smart-contract/) - 智能合约
 - [ ] [Account Abstraction](https://aiweb3.school/zh/handbook/web3/account-abstraction/) - 账户抽象
 - [ ] [Dev Stack](https://aiweb3.school/zh/handbook/web3/dev-stack/) - 开发工具链
