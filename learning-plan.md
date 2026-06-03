@@ -35,7 +35,7 @@
 
 #### Bridge 核心概念
 - [x] [Chain-aware Context](https://aiweb3.school/zh/handbook/bridge/chain-aware-context/) - 链上状态进入 Agent ✅ (5/30)
-- [ ] [Web3 Tool Use](https://aiweb3.school/zh/handbook/bridge/web3-tool-use/) - Agent 调用 Web3 工具
+- [x] [Web3 Tool Use](https://aiweb3.school/zh/handbook/bridge/web3-tool-use/) - Agent 调用 Web3 工具 ✅ (6/3)
 - [x] [Agent Workflow](https://aiweb3.school/zh/handbook/bridge/agent-workflow/) - 工作流设计 ✅ (6/1)
 - [x] [Agent Wallet](https://aiweb3.school/zh/handbook/bridge/agent-wallet/) - Agent 权限管理 ✅ (5/29, 配套 MVP: Approval Tracker)
 - [x] [Machine Payment](https://aiweb3.school/zh/handbook/bridge/machine-payment/) - 机器支付 ✅ (5/31)
