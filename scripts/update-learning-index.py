@@ -98,12 +98,13 @@ def parse_daily_note(path):
             ach = re.sub(r'^-?\s*\[[ xX]\]\s*', '', ach)
             achievements.append(ach)
 
-    # 提取学习时长
-    hours_match = re.search(r"学习时长[：:]\s*([\d.]+)\s*小时", content)
+    # 提取学习时长 (支持: 1.5小时, ~1.5 小时, 2 小时, 3h 等格式)
+    # 匹配: `**学习时长**: ~1.5 小时` 或 `| **学习时长** | ~1.5 小时 |` 或 `学习时长: 2 小时`
+    hours_match = re.search(r"学习时长\**\s*[：:]\s*\**\s*~?\s*([\d.]+)\s*[小时h]", content)
     hours = hours_match.group(1) if hours_match else ""
     
-    # 提取完成度
-    progress_match = re.search(r"完成度[：:]\s*(\d+)%", content)
+    # 提取完成度 (支持: 95%, 90% 等)
+    progress_match = re.search(r"完成度\**\s*[：:]\s*\**\s*~?\s*(\d+)\s*%", content)
     progress = progress_match.group(1) if progress_match else ""
 
     return {
@@ -237,14 +238,71 @@ def build_index(notes):
     # Bridge
     lines.append("### 🌉 AI × Web3 Bridge")
     lines.append("")
-    lines.append("| 章节 | 状态 |")
-    lines.append("|------|:----:|")
+    lines.append("| 章节 | 状态 | 学习日期 | 核心理解 |")
+    lines.append("|------|:----:|:--------:|----------|")
     for ch in BRIDGE_CHAPTERS:
         slug = ch.lower().replace(" ", "-").replace("/", "-")
         # 移除特殊字符
         slug = re.sub(r'[^a-z0-9-]', '', slug)
         link = f"https://aiweb3.school/zh/handbook/bridge/{slug}/"
-        lines.append(f"| [{ch}]({link}) | ⬜ |")
+        
+        # 扫描笔记标题+全文判断该章节是否已学习
+        # 优先匹配标题，更精确
+        completed_date = ""
+        core_understanding = ch
+        
+        # 第一遍：精确匹配标题
+        for note in notes:
+            title_lower = note["title"].lower()
+            ch_lower = ch.lower()
+            ch_keywords = {
+                "chain-aware context": ["chain-aware context", "链感知上下文"],
+                "web3 tool use": ["web3 tool use", "web3 工具调用"],
+                "agent workflow": ["agent workflow", "智能体工作流"],
+                "agent wallet": ["agent wallet", "智能体钱包", "agent 钱包", "wallet.*权限", "钱包与权限"],
+                "machine payment": ["machine payment", "机器支付"],
+                "settlement & escrow": ["settlement & escrow", "settlement.*escrow"],
+                "agent identity": ["agent identity", "agent身份", "智能体身份"],
+                "agent trust & reputation": ["agent trust", "agent reputation", "信任与声誉"],
+                "verifiable ai": ["verifiable ai", "可验证 ai"],
+                "ai security": ["ai security", "ai 安全"],
+                "ai privacy": ["ai privacy", "ai 隐私"],
+                "governance ai": ["governance ai", "governance", "治理 ai"],
+            }
+            keywords = ch_keywords.get(ch_lower, [ch_lower])
+            for kw in keywords:
+                if kw in title_lower:
+                    completed_date = note["date"]
+                    if note["core_points"]:
+                        core_understanding = note["core_points"][0][:55]
+                    break
+            if completed_date:
+                break
+        
+        # 第二遍：如果标题没匹配到，扫描全文（非常保守，仅限确定在该主题笔记中出现的独特短语）
+        if not completed_date:
+            for note in notes:
+                full_lower = note.get("full_content", "").lower()
+                # 只包含标题不包含但内容确实涵盖的章节
+                # 注意：不要用过于通用的词汇，避免误报
+                unique_phrases = {
+                    "settlement & escrow": ["settlement & escrow"],
+                }
+                phrases = unique_phrases.get(ch_lower, [])
+                found = False
+                for phrase in phrases:
+                    if phrase in full_lower:
+                        found = True
+                        break
+                if found:
+                    completed_date = note["date"]
+                    if note["core_points"]:
+                        core_understanding = note["core_points"][0][:55]
+                    break
+        
+        status = "✅" if completed_date else "⬜"
+        date_str = completed_date if completed_date else "—"
+        lines.append(f"| [{ch}]({link}) | {status} | {date_str} | {core_understanding} |")
     lines.append("")
 
     # ===== Key Insights =====

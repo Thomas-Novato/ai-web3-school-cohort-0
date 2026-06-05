@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-05-28 23:00
+> 最后更新: 2026-06-05 23:07
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -24,21 +24,34 @@
 
 | 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
 |------|----------|----------|:--------:|:------:|
-| [2026-05-18](daily/2026-05-18.md) | 2026-05-18 学习笔记 | 了解了 AI × Web3 School 的学习体系和 Handbook 结构... | h | % |
-| [2026-05-19](daily/2026-05-19.md) | 2026-05-19 学习笔记 | 可以处理复杂的多步骤任务... | h | % |
+| [2026-05-18](daily/2026-05-18.md) | 2026-05-18 学习笔记 | 了解了 AI × Web3 School 的学习体系和 Handbook 结构... | 1h | 80% |
+| [2026-05-19](daily/2026-05-19.md) | 2026-05-19 学习笔记 | 可以处理复杂的多步骤任务... | 1.5h | 70% |
 | [2026-05-20](daily/2026-05-20.md) | 2026-05-20 学习笔记 | 2026-05-20 学习笔记 | 2h | 90% |
 | [2026-05-21](daily/2026-05-21.md) | 2026-05-21 学习笔记 | 2026-05-21 学习笔记 | 3h | 95% |
-| [2026-05-22](daily/2026-05-22.md) | 2026-05-22 学习笔记 | 2026-05-22 学习笔记 | h | % |
-| [2026-05-23](daily/2026-05-23.md) | 2026-05-23 学习笔记 | 2026-05-23 学习笔记 | h | % |
-| [2026-05-24](daily/2026-05-24.md) | 2026-05-24 学习笔记 | 2026-05-24 学习笔记 | h | % |
+| [2026-05-22](daily/2026-05-22.md) | 2026-05-22 学习笔记 | 2026-05-22 学习笔记 | 2.5h | 85% |
+| [2026-05-23](daily/2026-05-23.md) | 2026-05-23 学习笔记 | 2026-05-23 学习笔记 | 6h | 90% |
+| [2026-05-24](daily/2026-05-24.md) | 2026-05-24 学习笔记 | 2026-05-24 学习笔记 | 4h | % |
 
 ### 🗓️ Week 2
 
 | 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
 |------|----------|----------|:--------:|:------:|
-| [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | h | % |
-| [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Network） | 区块链网络不是抽象背景，而是交易从签名到确认的完整链路... | h | % |
-| [2026-05-28](daily/2026-05-28.md) | 2026-05-28 学习笔记 — 密码学（Cryptogr | 私钥 = 控制权，签名 = 授权，哈希 = 完整性，Merkle Tree = 高效验证... | h | % |
+| [2026-05-26](daily/2026-05-26.md) | 2026-05-26 学习笔记 — MCP（Model Co | MCP 的三层架构：Model → Client → Server... | 1.5h | 90% |
+| [2026-05-27](daily/2026-05-27.md) | 2026-05-27 学习笔记 — 网络（Network） | 区块链网络不是抽象背景，而是交易从签名到确认的完整链路... | 1h | 90% |
+| [2026-05-28](daily/2026-05-28.md) | 2026-05-28 学习笔记 — 密码学（Cryptogr | 私钥 = 控制权，签名 = 授权，哈希 = 完整性，Merkle Tree = 高效验证... | 1h | 90% |
+| [2026-05-29](daily/2026-05-29.md) | 2026-05-29 学习笔记 — Agent Wallet | Agent Wallet 的核心在于**受限权限下的安全执行**，不是让 Agent 直接控制资产... | h | % |
+| [2026-05-30](daily/2026-05-30.md) | 2026-05-30 学习笔记 — Chain-aware  | 🧠 Chain-aware Context = AI × Web3 的输入层，比工具调用和工作流更基础... | 1h | 95% |
+| [2026-05-31](daily/2026-05-31.md) | 2026-05-31 学习笔记 — Machine Paym | 🧠 **核心认知：** Machine Payment 不是让 Agent "会花钱"，而是让机器之间的支付**可限制、... | 1h | 95% |
+
+### 🗓️ Week 3
+
+| 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
+|------|----------|----------|:--------:|:------:|
+| [2026-06-01](daily/2026-06-01.md) | 2026-06-01 学习笔记 — Agent Workfl | 🧠 **Agent Workflow = 概率模型 + 确定性流程** — 7 个核心组件构成完整的 Agent 执行骨... | 1h | 95% |
+| [2026-06-02](daily/2026-06-02.md) | 2026-06-02 学习笔记 — Agent Trust  | 🧠 **Agent Trust ≠ 五星评分** — 信任是一组可追溯、可验证的行为证据链... | 1h | 95% |
+| [2026-06-03](daily/2026-06-03.md) | 2026-06-03 学习笔记 — Web3 Tool Us | 🧠 **Web3 Tool Use = Agent 的"手"** — Agent Wallet 是权限边界，Workfl... | 1.5h | 95% |
+| [2026-06-04](daily/2026-06-04.md) | 2026-06-04 学习笔记 — Agent Resour | 🧠 **确定 Hackathon 项目方向**：Agent Resource Market... | 1h | 90% |
+| [2026-06-05](daily/2026-06-05.md) | 2026-06-05 学习笔记 — 钱包与权限：执行型 Ag | 🧠 **核心认知转变**：Agent 不安全不是因为模型不可控，而是权限设计没做好... | 1.5h | 95% |
 
 ---
 ## 📚 章节学习进度
@@ -54,7 +67,7 @@
 | [RAG](https://aiweb3.school/zh/handbook/ai/rag/) | ✅ | 2026-05-18 | 检索增强生成 |
 | [Frameworks](https://aiweb3.school/zh/handbook/ai/frameworks/) | ✅ | 2026-05-18 | LangChain / LangGraph |
 | [MCP](https://aiweb3.school/zh/handbook/ai/mcp/) | ✅ | 2026-05-22 | Model Context Protocol |
-| [Evaluation](https://aiweb3.school/zh/handbook/ai/evaluation/) | ⬜ | — | LLM 评估 |
+| [Evaluation](https://aiweb3.school/zh/handbook/ai/evaluation/) | ✅ | 2026-06-01 | LLM 评估 |
 | [Fine-tuning](https://aiweb3.school/zh/handbook/ai/fine-tuning/) | ⬜ | — | 模型微调 |
 | [Inference](https://aiweb3.school/zh/handbook/ai/inference/) | ⬜ | — | 模型推理 |
 
@@ -64,7 +77,7 @@
 |------|:----:|:--------:|----------|
 | [Network](https://aiweb3.school/zh/handbook/web3/network/) | ✅ | 2026-05-27 | 区块链网络基础 |
 | [Cryptography](https://aiweb3.school/zh/handbook/web3/cryptography/) | ✅ | 2026-05-28 | 密码学基础 |
-| [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) | ⬜ | — | 钱包和签名 |
+| [Wallet](https://aiweb3.school/zh/handbook/web3/wallet/) | ✅ | 2026-05-29 | 钱包和签名 |
 | [Smart Contract](https://aiweb3.school/zh/handbook/web3/smart-contract/) | ⬜ | — | 智能合约 |
 | [Account Abstraction](https://aiweb3.school/zh/handbook/web3/account-abstraction/) | ⬜ | — | 账户抽象 |
 | [DeFi](https://aiweb3.school/zh/handbook/web3/defi/) | ⬜ | — | DeFi 基础 |
@@ -75,20 +88,27 @@
 
 ### 🌉 AI × Web3 Bridge
 
-| 章节 | 状态 |
-|------|:----:|
-| [Chain-aware Context](https://aiweb3.school/zh/handbook/bridge/chain-aware-context/) | ⬜ |
-| [Web3 Tool Use](https://aiweb3.school/zh/handbook/bridge/web3-tool-use/) | ⬜ |
-| [Agent Workflow](https://aiweb3.school/zh/handbook/bridge/agent-workflow/) | ⬜ |
-| [Agent Wallet](https://aiweb3.school/zh/handbook/bridge/agent-wallet/) | ⬜ |
-| [Machine Payment](https://aiweb3.school/zh/handbook/bridge/machine-payment/) | ⬜ |
-| [Settlement & Escrow](https://aiweb3.school/zh/handbook/bridge/settlement--escrow/) | ⬜ |
-| [Agent Identity](https://aiweb3.school/zh/handbook/bridge/agent-identity/) | ⬜ |
-| [Agent Trust & Reputation](https://aiweb3.school/zh/handbook/bridge/agent-trust--reputation/) | ⬜ |
-| [Verifiable AI](https://aiweb3.school/zh/handbook/bridge/verifiable-ai/) | ⬜ |
-| [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) | ⬜ |
-| [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) | ⬜ |
-| [Governance AI](https://aiweb3.school/zh/handbook/bridge/governance-ai/) | ⬜ |
+| 章节 | 状态 | 学习日期 | 核心理解 |
+|------|:----:|:--------:|----------|
+| [Chain-aware Context](https://aiweb3.school/zh/handbook/bridge/chain-aware-context/) | ✅ | 2026-05-30 | 🧠 Chain-aware Context = AI × Web3 的输入层，比工具调用和工作流更基础 |
+| [Web3 Tool Use](https://aiweb3.school/zh/handbook/bridge/web3-tool-use/) | ✅ | 2026-06-03 | 🧠 **Web3 Tool Use = Agent 的"手"** — Agent Wallet 是权限边界，W |
+| [Agent Workflow](https://aiweb3.school/zh/handbook/bridge/agent-workflow/) | ✅ | 2026-06-01 | 🧠 **Agent Workflow = 概率模型 + 确定性流程** — 7 个核心组件构成完整的 Agen |
+| [Agent Wallet](https://aiweb3.school/zh/handbook/bridge/agent-wallet/) | ✅ | 2026-05-29 | Agent Wallet 的核心在于**受限权限下的安全执行**，不是让 Agent 直接控制资产 |
+| [Machine Payment](https://aiweb3.school/zh/handbook/bridge/machine-payment/) | ✅ | 2026-05-31 | 🧠 **核心认知：** Machine Payment 不是让 Agent "会花钱"，而是让机器之间的支付* |
+| [Settlement & Escrow](https://aiweb3.school/zh/handbook/bridge/settlement--escrow/) | ✅ | 2026-05-31 | 🧠 **核心认知：** Machine Payment 不是让 Agent "会花钱"，而是让机器之间的支付* |
+| [Agent Identity](https://aiweb3.school/zh/handbook/bridge/agent-identity/) | ⬜ | — | Agent Identity |
+| [Agent Trust & Reputation](https://aiweb3.school/zh/handbook/bridge/agent-trust--reputation/) | ✅ | 2026-06-02 | 🧠 **Agent Trust ≠ 五星评分** — 信任是一组可追溯、可验证的行为证据链 |
+| [Verifiable AI](https://aiweb3.school/zh/handbook/bridge/verifiable-ai/) | ⬜ | — | Verifiable AI |
+| [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) | ⬜ | — | AI Security |
+| [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) | ⬜ | — | AI Privacy |
+| [Governance AI](https://aiweb3.school/zh/handbook/bridge/governance-ai/) | ⬜ | — | Governance AI |
+
+---
+## 🧭 前沿探索主题
+
+| 主题 | 学习日期 | 核心内容 |
+|------|:--------:|----------|
+| 钱包与权限：执行型 Agent 的安全地基 | 2026-06-05 | Agent 不应该拥有资产——只应该在受限、可审计、可撤销的权限范围内执行。涵盖 AI Wallet UX, Permission Policy, Session Key, Safe Guard, ERC-4337, Transaction Simulation, Recovery |
 
 ---
 ## 🧠 关键深度知识
@@ -147,6 +167,7 @@
 | 完成 WCB 打卡 | 2026-05-22 | 见 [daily/2026-05-22.md](daily/2026-05-22.md) |
 | 或者继续深入 MCP 实践，尝试搭建一个简单的 MCP Server | 2026-05-26 | 见 [daily/2026-05-26.md](daily/2026-05-26.md) |
 | 或者尝试完成 Network 的"最小实践"：做一笔测试网交易追踪 | 2026-05-27 | 见 [daily/2026-05-27.md](daily/2026-05-27.md) |
+| 6. [最小实践案例](#6-最小实践案例) | 2026-05-31 | 见 [daily/2026-05-31.md](daily/2026-05-31.md) |
 
 ---
 ## 📁 仓库文件索引
@@ -170,6 +191,14 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-26.md
 │   ├── 2026-05-27.md
 │   ├── 2026-05-28.md
+│   ├── 2026-05-29.md
+│   ├── 2026-05-30.md
+│   ├── 2026-05-31.md
+│   ├── 2026-06-01.md
+│   ├── 2026-06-02.md
+│   ├── 2026-06-03.md
+│   ├── 2026-06-04.md
+│   ├── 2026-06-05.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -181,6 +210,14 @@ ai-web3-school-cohort-0/
 │   ├── 2026-05-26-checkin-draft.md
 │   ├── 2026-05-27-checkin-draft.md
 │   ├── 2026-05-28-checkin-draft.md
+│   ├── 2026-05-29-checkin-draft.md
+│   ├── 2026-05-30-checkin-draft.md
+│   ├── 2026-05-31-checkin-draft.md
+│   ├── 2026-06-01-checkin-draft.md
+│   ├── 2026-06-02-checkin-draft.md
+│   ├── 2026-06-03-checkin-draft.md
+│   ├── 2026-06-04-checkin-draft.md
+│   ├── 2026-06-05-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
