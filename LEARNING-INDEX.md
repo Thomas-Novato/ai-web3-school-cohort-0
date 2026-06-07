@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-06-05 23:07
+> 最后更新: 2026-06-07 23:03
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -52,6 +52,8 @@
 | [2026-06-03](daily/2026-06-03.md) | 2026-06-03 学习笔记 — Web3 Tool Us | 🧠 **Web3 Tool Use = Agent 的"手"** — Agent Wallet 是权限边界，Workfl... | 1.5h | 95% |
 | [2026-06-04](daily/2026-06-04.md) | 2026-06-04 学习笔记 — Agent Resour | 🧠 **确定 Hackathon 项目方向**：Agent Resource Market... | 1h | 90% |
 | [2026-06-05](daily/2026-06-05.md) | 2026-06-05 学习笔记 — 钱包与权限：执行型 Ag | 🧠 **核心认知转变**：Agent 不安全不是因为模型不可控，而是权限设计没做好... | 1.5h | 95% |
+| [2026-06-06](daily/2026-06-06.md) | 2026-06-06 学习笔记 — Building Eff | 🧠 **核心认知转变**：构建 Agent 不是越复杂越好，而是从最简单、最可控、最可评估的开始... | 2h | 100% |
+| [2026-06-07](daily/2026-06-07.md) | 2026-06-07 学习笔记 — AI Security | 2026-06-07 学习笔记 — AI Security | 1.5h | 100% |
 
 ---
 ## 📚 章节学习进度
@@ -83,7 +85,7 @@
 | [DeFi](https://aiweb3.school/zh/handbook/web3/defi/) | ⬜ | — | DeFi 基础 |
 | [Oracle](https://aiweb3.school/zh/handbook/web3/oracle/) | ⬜ | — | 预言机 |
 | [Indexing](https://aiweb3.school/zh/handbook/web3/indexing/) | ⬜ | — | 链上索引 |
-| [Security](https://aiweb3.school/zh/handbook/web3/security/) | ⬜ | — | Web3 安全 |
+| [Security](https://aiweb3.school/zh/handbook/web3/security/) | ✅ | 2026-06-07 | Web3 安全 |
 | [Dev Stack](https://aiweb3.school/zh/handbook/web3/dev-stack/) | ⬜ | — | 开发工具链 |
 
 ### 🌉 AI × Web3 Bridge
@@ -99,16 +101,9 @@
 | [Agent Identity](https://aiweb3.school/zh/handbook/bridge/agent-identity/) | ⬜ | — | Agent Identity |
 | [Agent Trust & Reputation](https://aiweb3.school/zh/handbook/bridge/agent-trust--reputation/) | ✅ | 2026-06-02 | 🧠 **Agent Trust ≠ 五星评分** — 信任是一组可追溯、可验证的行为证据链 |
 | [Verifiable AI](https://aiweb3.school/zh/handbook/bridge/verifiable-ai/) | ⬜ | — | Verifiable AI |
-| [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) | ⬜ | — | AI Security |
+| [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) | ✅ | 2026-06-07 | AI Security |
 | [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) | ⬜ | — | AI Privacy |
 | [Governance AI](https://aiweb3.school/zh/handbook/bridge/governance-ai/) | ⬜ | — | Governance AI |
-
----
-## 🧭 前沿探索主题
-
-| 主题 | 学习日期 | 核心内容 |
-|------|:--------:|----------|
-| 钱包与权限：执行型 Agent 的安全地基 | 2026-06-05 | Agent 不应该拥有资产——只应该在受限、可审计、可撤销的权限范围内执行。涵盖 AI Wallet UX, Permission Policy, Session Key, Safe Guard, ERC-4337, Transaction Simulation, Recovery |
 
 ---
 ## 🧠 关键深度知识
@@ -199,6 +194,8 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-03.md
 │   ├── 2026-06-04.md
 │   ├── 2026-06-05.md
+│   ├── 2026-06-06.md
+│   ├── 2026-06-07.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -218,6 +215,8 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-03-checkin-draft.md
 │   ├── 2026-06-04-checkin-draft.md
 │   ├── 2026-06-05-checkin-draft.md
+│   ├── 2026-06-06-checkin-draft.md
+│   ├── 2026-06-07-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
