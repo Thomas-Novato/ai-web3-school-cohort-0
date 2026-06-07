@@ -41,7 +41,7 @@
 - [x] [Machine Payment](https://aiweb3.school/zh/handbook/bridge/machine-payment/) - 机器支付 ✅ (5/31)
 
 #### 安全和隐私
-- [ ] [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) - Prompt Injection、权限隔离
+- [x] [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) - Prompt Injection、权限隔离 ✅ (6/7)
 - [ ] [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) - 隐私边界
 - [ ] [Web3 Security](https://aiweb3.school/zh/handbook/web3/security/) - 合约安全
 
