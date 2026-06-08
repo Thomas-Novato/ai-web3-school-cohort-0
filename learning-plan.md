@@ -42,7 +42,7 @@
 
 #### 安全和隐私
 - [x] [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) - Prompt Injection、权限隔离 ✅ (6/7)
-- [ ] [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) - 隐私边界
+- [x] [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) - 隐私边界 ✅ (6/8)
 - [ ] [Web3 Security](https://aiweb3.school/zh/handbook/web3/security/) - 合约安全
 
 ### 阶段三：项目实践（4-6 周）
