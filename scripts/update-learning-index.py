@@ -98,10 +98,20 @@ def parse_daily_note(path):
             ach = re.sub(r'^-?\s*\[[ xX]\]\s*', '', ach)
             achievements.append(ach)
 
-    # 提取学习时长 (支持: 1.5小时, ~1.5 小时, 2 小时, 3h 等格式)
+    # 提取学习时长 (支持: 1.5小时, ~1.5 小时, 2 小时, 3h, 约 40 分钟 等格式)
     # 匹配: `**学习时长**: ~1.5 小时` 或 `| **学习时长** | ~1.5 小时 |` 或 `学习时长: 2 小时`
-    hours_match = re.search(r"学习时长\**\s*[：:]\s*\**\s*~?\s*([\d.]+)\s*[小时h]", content)
-    hours = hours_match.group(1) if hours_match else ""
+    # 也支持分钟: `学习时长：约 40 分钟` -> 自动转为小时
+    hours_raw = ""
+    hours_match = re.search(r"学习时长\**\s*[：:]\s*\**\s*~?\s*约?\s*([\d.]+)\s*[小时h]", content)
+    if hours_match:
+        hours_raw = hours_match.group(1)
+    else:
+        # 尝试匹配分钟格式: 学习时长：约 40 分钟
+        min_match = re.search(r"学习时长\**\s*[：:]\s*\**\s*~?\s*约?\s*(\d+)\s*分钟", content)
+        if min_match:
+            mins = float(min_match.group(1))
+            hours_raw = f"{mins/60:.1f}"
+    hours = hours_raw
     
     # 提取完成度 (支持: 95%, 90% 等)
     progress_match = re.search(r"完成度\**\s*[：:]\s*\**\s*~?\s*(\d+)\s*%", content)

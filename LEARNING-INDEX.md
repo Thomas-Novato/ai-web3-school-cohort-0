@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-06-07 23:03
+> 最后更新: 2026-06-08 23:05
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -55,6 +55,12 @@
 | [2026-06-06](daily/2026-06-06.md) | 2026-06-06 学习笔记 — Building Eff | 🧠 **核心认知转变**：构建 Agent 不是越复杂越好，而是从最简单、最可控、最可评估的开始... | 2h | 100% |
 | [2026-06-07](daily/2026-06-07.md) | 2026-06-07 学习笔记 — AI Security | 2026-06-07 学习笔记 — AI Security | 1.5h | 100% |
 
+### 🗓️ Week 4
+
+| 日期 | 学习主题 | 核心内容 | 学习时长 | 完成度 |
+|------|----------|----------|:--------:|:------:|
+| [2026-06-08](daily/2026-06-08.md) | 2026-06-08 学习笔记 — AI Privacy | 2026-06-08 学习笔记 — AI Privacy | 0.7h | 90% |
+
 ---
 ## 📚 章节学习进度
 
@@ -102,7 +108,7 @@
 | [Agent Trust & Reputation](https://aiweb3.school/zh/handbook/bridge/agent-trust--reputation/) | ✅ | 2026-06-02 | 🧠 **Agent Trust ≠ 五星评分** — 信任是一组可追溯、可验证的行为证据链 |
 | [Verifiable AI](https://aiweb3.school/zh/handbook/bridge/verifiable-ai/) | ⬜ | — | Verifiable AI |
 | [AI Security](https://aiweb3.school/zh/handbook/bridge/ai-security/) | ✅ | 2026-06-07 | AI Security |
-| [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) | ⬜ | — | AI Privacy |
+| [AI Privacy](https://aiweb3.school/zh/handbook/bridge/ai-privacy/) | ✅ | 2026-06-08 | AI Privacy |
 | [Governance AI](https://aiweb3.school/zh/handbook/bridge/governance-ai/) | ⬜ | — | Governance AI |
 
 ---
@@ -196,6 +202,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-05.md
 │   ├── 2026-06-06.md
 │   ├── 2026-06-07.md
+│   ├── 2026-06-08.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -217,6 +224,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-05-checkin-draft.md
 │   ├── 2026-06-06-checkin-draft.md
 │   ├── 2026-06-07-checkin-draft.md
+│   ├── 2026-06-08-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
