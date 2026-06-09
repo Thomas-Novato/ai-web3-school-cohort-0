@@ -54,6 +54,7 @@
 - [ ] [AI Security](https://aiweb3.school/zh/handbook/tracks/ai-security/) - AI 安全
 - [ ] [Governance](https://aiweb3.school/zh/handbook/tracks/governance/) - 治理
 - [ ] [Dev Tooling](https://aiweb3.school/zh/handbook/tracks/dev-tooling/) - 开发工具
+- [x] [Agent Data Metrics & Profiling](/daily/2026-06-09.md) - AI Agent 数据指标与画像分析 (6/9, 黑客松方向讨论中)
 
 #### 项目开发
 - [ ] 确定项目方向和需求
