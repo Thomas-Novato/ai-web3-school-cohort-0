@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-06-10 23:01
+> 最后更新: 2026-06-11 23:02
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -62,6 +62,7 @@
 | [2026-06-08](daily/2026-06-08.md) | 2026-06-08 学习笔记 — AI Privacy | 2026-06-08 学习笔记 — AI Privacy | 0.7h | 90% |
 | [2026-06-09](daily/2026-06-09.md) | 2026-06-09 学习打卡 — AI Agent 数据指 | 2026-06-09 学习打卡 — AI Agent 数据指标体系与行为画像 | h | % |
 | [2026-06-10](daily/2026-06-10.md) | 2026-06-10 学习打卡 — Agent Econom | 2026-06-10 学习打卡 — Agent Economy 首页交互叙事重设计 | 1.5h | % |
+| [2026-06-11](daily/2026-06-11.md) | 2026-06-11 学习打卡 — 黑客松 MVP 初版完成 | 2026-06-11 学习打卡 — 黑客松 MVP 初版完成 & UI 问题排查 | h | % |
 
 ---
 ## 📚 章节学习进度
@@ -207,6 +208,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-08.md
 │   ├── 2026-06-09.md
 │   ├── 2026-06-10.md
+│   ├── 2026-06-11.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -231,6 +233,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-08-checkin-draft.md
 │   ├── 2026-06-09-checkin-draft.md
 │   ├── 2026-06-10-checkin-draft.md
+│   ├── 2026-06-11-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
