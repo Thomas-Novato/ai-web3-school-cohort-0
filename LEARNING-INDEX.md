@@ -1,6 +1,6 @@
 # AI × Web3 School — 学习内容索引
 
-> 最后更新: 2026-06-11 23:02
+> 最后更新: 2026-06-12 23:52
 > 学员: [Thomas-Novato](https://github.com/Thomas-Novato)
 > 仓库: [ai-web3-school-cohort-0](https://github.com/Thomas-Novato/ai-web3-school-cohort-0/)
 
@@ -63,7 +63,7 @@
 | [2026-06-09](daily/2026-06-09.md) | 2026-06-09 学习打卡 — AI Agent 数据指 | 2026-06-09 学习打卡 — AI Agent 数据指标体系与行为画像 | h | % |
 | [2026-06-10](daily/2026-06-10.md) | 2026-06-10 学习打卡 — Agent Econom | 2026-06-10 学习打卡 — Agent Economy 首页交互叙事重设计 | 1.5h | % |
 | [2026-06-11](daily/2026-06-11.md) | 2026-06-11 学习打卡 — 黑客松 MVP 初版完成 | 2026-06-11 学习打卡 — 黑客松 MVP 初版完成 & UI 问题排查 | h | % |
-| [2026-06-12](daily/2026-06-12.md) | 2026-06-12 学习打卡 — text-swarm-hero 分支整合 | text-swarm-hero worktree 文件整合到主仓库，创建分支 `new` 并推送至 GitHub | 1h | 100% |
+| [2026-06-12](daily/2026-06-12.md) | 2026-06-12 学习打卡 — text-swarm-h | 2026-06-12 学习打卡 — text-swarm-hero 分支整合 & GitHub 推送 | 1h | 100% |
 
 ---
 ## 📚 章节学习进度
@@ -210,6 +210,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-09.md
 │   ├── 2026-06-10.md
 │   ├── 2026-06-11.md
+│   ├── 2026-06-12.md
 ├── submissions/
 │   ├── 2026-05-18-checkin-draft.md
 │   ├── 2026-05-19-checkin-draft.md
@@ -235,6 +236,7 @@ ai-web3-school-cohort-0/
 │   ├── 2026-06-09-checkin-draft.md
 │   ├── 2026-06-10-checkin-draft.md
 │   ├── 2026-06-11-checkin-draft.md
+│   ├── 2026-06-12-checkin-draft.md
 ├── templates/
 │   ├── daily-note.md
 │   └── task-note.md
